@@ -1,0 +1,29 @@
+{
+    "name": "idev23/remove-public-url-laravel",
+    "description": "Remove Public Url Laravel iDev23",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Idev23\\RemovePublicUrlLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ardiyan",
+            "email": "100250799+i-Dev23@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Idev23\\RemovePublicUrlLaravel\\RemovePublicUrlLaravelServiceProvider"
+            ]
+        }
+    }
+}
