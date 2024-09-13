@@ -1,6 +1,6 @@
 <?php
 
-namespace idev23\RemovePublicUrlLaravel;
+namespace Idev23\RemovePublicUrlLaravel;
 
 use Illuminate\Support\ServiceProvider;
 
